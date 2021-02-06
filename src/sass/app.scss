@@ -1,0 +1,30 @@
+@import "../components/hamburgers-master/_sass/hamburgers/hamburgers.scss";
+@import "./_variables.scss";
+@import "./_navbar.scss";
+@import "./_footer.scss";
+
+*{
+  box-sizing: border-box;
+  font-family: 'Gotu', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
+.carousel {
+  
+  &__image {
+    height: auto;
+    width: 100%;
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+  }
+
+}
+
